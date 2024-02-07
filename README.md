@@ -15,12 +15,11 @@ This project is based on an existing application called [2048](https://github.co
     ```
     docker run --name [container-name] -d -p 80:80 [your-image-name]
     ```
-
-    ![mycontainer](assets/mycontainer.png)
+    <img src="assets/mycontainer.png" width="400">
 
 - Once the container is running, you can access the application in your web browser at http://localhost.
 
-    ![test](assets/test.png)
+    <img src="assets/test.png" width="400">
 
 ## Deploy the Docker Container on AWS
 
@@ -33,9 +32,11 @@ To deploy the containerised game on AWS, we'll use Amazon Elastic Beanstalk (EB)
 - Create a new environment.
 - Choose Docker as the platform and provide the necessary configuration details.
 
+<br>
+<img src="assets/beanstalk.png" width="400">
 
 ## Access Your Application
 
 After the deployment is complete, you can access your application by navigating to the provided URL or DNS endpoint.
 
-![deployed](assets/deployed.png)
+<img src="assets/deployed.png" width="400">

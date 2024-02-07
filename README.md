@@ -1,6 +1,6 @@
 # Deploy a Containerised Game to AWS
 
-This project is based on an [existing application](https://github.com/gabrielecirulli/2048), which serves as the template for my project. The goal is to create a Dockerfile, build a Docker image, run the application in a Docker container, and then deploy the containerised application using the Amazon Elastic Beanstalk service on AWS.
+This project is based on an [existing application](https://github.com/gabrielecirulli/2048) that serves as the template for my project. The goal is to create a Dockerfile, build a Docker image, run the application in a Docker container, and then deploy the containerised application using the Amazon Elastic Beanstalk service on AWS.
 
 ## Runing the Containerised Application
 
